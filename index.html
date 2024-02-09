@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon-32x32.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunny Agency</title>
+</head>
+
+<body class="max-w-[2000px] mx-auto text-md text-neutral-500 font-Barlow">
+  <header class="h-screen">
+    <div class="relative min-h-svh h-full ">
+      <img class="hidden md:block w-screen h-screen object-cover" src="./assets/desktop/image-header.jpg" alt="logo"
+        srcset="">
+      <img class="md:hidden w-screen h-screen object-cover" src="./assets/mobile/image-header.jpg" alt="logo" srcset="">
+      <nav class="absolute top-0 left-0 flex justify-between w-full px-10 py-8 items-center">
+        <div class="logo">
+          <a href="#"><img src="./assets/logo.svg" alt="" srcset=""></a>
+        </div>
+        <div
+          class="menu shadow-xl after:content-[''] after:h-8 after:w-[50px] after:bg-[#3EBFFF] after:rotate-[-45deg] after:absolute after:-top-[45px] after:right-[0.9px] md:after:hidden  before:content-[''] before:h-8 before:w-8 before:bg-neutral-100 before:absolute before:-top-8 before:right-0   md:before:hidden md:shadow-none md:text-neutral-100 top-28 left-1/2 -translate-x-1/2 w-[80%] md:w-auto absolute md:static bg-neutral-100 text-neutral-200 md:bg-neutral-100/0 text-center py-8 md:translate-x-0 md:py-0 -translate-y-[180%] md:-translate-y-0 transition-transform ease-in-out duration-300 z-20"
+          role="menubar">
+          <ul class="flex flex-col items-center md:flex-row gap-8">
+            <li><a
+                class="focus:outline-none focus-visible:ring-2  ring-neutral-100 rounded-sm ring-offset-2 ring-offset-neutral-500"
+                href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+            <li
+              class="font-Fraunces uppercase rounded-full px-6 py-3 bg-yellow md:bg-neutral-100 text-neutral-500 md:hover:bg-dark-blue md:hover:text-neutral-100 font-b">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-burger md:hidden ">
+          <button id="hamburger" class="text-neutral-100 hover:text-neutral-100/90" aria-expanded="false"
+            aria-label="Open menu"><svg width=" 24" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="currentColor" fill-rule=" evenodd" />
+            </svg></button>
+        </div>
+      </nav>
+      <div
+        class="hero font-Fraunces uppercase text-5xl font-black text-neutral-100 fon absolute top-36 md:top-40 tracking-widest w-full text-center">
+        <h1 id="test">we are creatives</h1>
+      </div>
+      <div
+        class="arrow-down absolute top-1/2 left-1/2 -translate-x-1/2 md:top-[16rem] lg:top-0 lg:grid lg:w-full lg:h-full lg:items-center lg:justify-center">
+        <img src="./assets/icon-arrow-down.svg" alt="" srcset="">
+      </div>
+    </div>
+    </div>
+  </header>
+  <main>
+
+    <section aria-label="Transform your brand">
+      <div class="trasform | grid md:grid-cols-2 items-center text-center md:text-left">
+        <div class="lg:space-y-10 md:space-y-4  space-y-12 py-20 md:py-0 px-[15%]">
+          <h2 class="font-Fraunces font-black lg:text-4xl text-3xl">Transform your<br>brand</h2>
+          <p class="text-neutral-400"> We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <button
+            class="font-Fraunces uppercase relative before:content-[''] before:w-[105%] before:h-2 before:bg-yellow before:absolute before:bottom-0 before:-left-1 before:opacity-35 before:rounded-md">learn
+            more</button>
+        </div>
+        <div class="img-transform row-start-1 md:col-start-2">
+          <img class="md:hidden" src="./assets/mobile/image-transform.jpg" alt="" srcset="">
+          <img class="hidden md:block w-[100%]" src="./assets/desktop/image-transform.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Stand out to be right">
+      <div class="trasform font | grid md:grid-cols-2 items-center text-center md:text-left">
+        <div class="lg:space-y-10 md:space-y-4 lg:px-[15%] space-y-12 py-20 md:py-0 px-10">
+          <h2 class="font-Fraunces font-black lg:text-4xl text-3xl">Stand out to the right audience</h2>
+          <p class="text-neutral-400"> Using a collaborative formula of designers, researchers, photographers,
+            videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+          <button
+            class="font-Fraunces uppercase relative before:content-[''] before:w-[105%] before:h-2 before:bg-red before:absolute before:bottom-0 before:-left-1 before:opacity-35 before:rounded-md">learn
+            more</button>
+        </div>
+        <div class="img-transform row-start-1 md:col-start-1">
+          <img class="md:hidden" src="./assets/mobile/image-stand-out.jpg" alt="" srcset="">
+          <img class="hidden md:block w-[100%]" src="./assets/desktop/image-stand-out.jpg" alt="" srcset="">
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Graphic design / Photography" class="pb-20  lg:pb-32">
+      <div class="trasform font | grid md:grid-cols-2">
+        <div class="graphic-design relative ">
+          <img class="md:hidden" src="./assets/mobile/image-graphic-design.jpg" alt="" srcset="">
+          <img class="hidden md:block w-[100%]" src="./assets/desktop/image-graphic-design.jpg" alt="" srcset="">
+          <div
+            class="absolute grid bottom-0 pb-20 lg:w-1/2 md:left-0 md:pb-12 md:static lg:absolute lg:pb-8 text-center md:text-left md:w-[100%] lg:text-center w-[80%] left-1/2 -translate-x-1/2  md:h-52  md:translate-x-0 lg:translate-x-1/2 md:p-8 lg:p-0 space-y-4">
+            <h2 class="font-Fraunces font-bold text-3xl">Graphic design</h2>
+            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+              potential clients’ attention.</p>
+          </div>
+        </div>
+        <div class="photography relative">
+          <img class="md:hidden" src="./assets/mobile/image-photography.jpg" alt="" srcset="">
+          <img class="hidden md:block w-[100%]" src="./assets/desktop/image-photography.jpg" alt="" srcset="">
+          <div
+            class="absolute grid bottom-0 pb-20 lg:w-1/2 md:left-0 md:pb-12 md:static lg:absolute lg:pb-8 text-center md:text-left md:w-[100%] lg:text-center w-[80%] left-1/2 -translate-x-1/2  md:h-52  md:translate-x-0 lg:translate-x-1/2 md:p-8 lg:p-0 space-y-4">
+            <h2 class="font-Fraunces font-bold text-3xl">Photography</h2>
+            <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business
+              image.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="testimonials" class="pb-20  lg:pb-32">
+      <div class="container w-[80%] mx-auto text-center space-y-20">
+        <h2 class="font-Fraunces md:text-2xl text-xl text-neutral-200 tracking-widest">CLIENT TESTIMONIALS</h2>
+        <div class="testimonial-grid grid md:grid-flow-col gap-x-10 gap-y-20 ">
+          <div class="grid-item flex flex-col items-center space-y-8 flex-1 w-full">
+            <img class="rounded-full w-24" src="./assets/image-emily.jpg" alt="Emily" srcset="">
+            <p class="">We put our trust in Sunnyside and they delivered, making sure our needs were met and
+              deadlines were
+              always hit.</p>
+            <div class="autor space-y-2">
+              <h3 class="font-Fraunces text-xl">Emily R.</h3>
+              <p class="text-neutral-300">Marketing Director</p>
+            </div>
+          </div>
+          <div class="grid-item flex flex-col items-center space-y-8 flex-1 w-full">
+            <img class="rounded-full w-24" src="./assets/image-thomas.jpg" alt="Emily" srcset="">
+            <p class="">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
+              satisfying and enjoyable experience.</p>
+            <div class="autor space-y-2">
+              <h3 class="font-Fraunces text-xl">Thomas S.</h3>
+              <p class="text-neutral-300">Chief Operating Officer</p>
+            </div>
+          </div>
+          <div class="grid-item flex flex-col items-center space-y-8 flex-1 w-full">
+            <img class="rounded-full w-24" src="./assets/image-jennie.jpg" alt="Emily" srcset="">
+            <p>Incredible end result! Our sales increased over 400% when we worked with
+              Sunnyside. Highly
+              recommended!</p>
+            <div class="autor space-y-2">
+              <h3 class="font-Fraunces text-xl">Jennie F.</h3>
+              <p class="text-neutral-300">Business Owner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="photo">
+      <div class="img-desktop grid md:grid-cols-4 grid-cols-2">
+        <img class="hidden md:block" src="./assets/desktop/image-gallery-milkbottles.jpg" alt="" srcset="">
+        <img class="md:hidden aspect-square" src="./assets/mobile/image-gallery-milkbottles.jpg" alt="" srcset="">
+        <img class="hidden md:block" src="./assets/desktop/image-gallery-orange.jpg" alt="" srcset="">
+        <img class="md:hidden aspect-square" src="./assets/mobile/image-gallery-orange.jpg" alt="" srcset="">
+        <img class="hidden md:block" src="./assets/desktop/image-gallery-cone.jpg" alt="" srcset="">
+        <img class="md:hidden aspect-square" src="./assets/desktop/image-gallery-cone.jpg" alt="" srcset="">
+        <img class="hidden md:block" src="./assets/desktop/image-gallery-sugarcubes.jpg" alt="" srcset="">
+        <img class="md:hidden aspect-square" src="./assets/desktop/image-gallery-sugarcubes.jpg" alt="" srcset="">
+      </div>
+    </section>
+
+    <section aria-label="footer">
+      <div class="footer bg-dark-cyan h-80 grid justify-center">
+        <div class="logo flex justify-center items-center">
+          <svg width="124" height="24" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M5.857 18.708c1.638 0 2.995-.36 4.07-1.08 1.075-.721 1.613-1.769 1.613-3.144-.083-1.855-1.464-3.246-4.144-4.173l-1.44-.597c-.314-.1-.538-.198-.67-.298a.45.45 0 01-.198-.373c0-.414.273-.62.819-.62.678 0 1.182.347 1.513 1.043l3.698-1.044c-.893-2.22-2.614-3.329-5.162-3.329-1.522 0-2.788.398-3.797 1.193C1.15 7.08.645 8.116.645 9.39c0 .398.058.766.174 1.106.116.34.29.638.521.894.232.257.455.48.67.671.215.19.488.369.82.534.33.166.582.286.756.36.174.075.41.162.707.261l.422.15 1.49.546c.363.133.6.244.707.335a.449.449 0 01.16.36c0 .431-.404.647-1.215.647-1.191 0-1.903-.53-2.134-1.59L0 14.509c.463 2.8 2.416 4.2 5.857 4.2zm11.636 0c1.638 0 2.845-.63 3.623-1.888v1.615h5.112V5.366h-5.112v7.156c0 1.474-.505 2.21-1.514 2.21-1.026 0-1.539-.736-1.539-2.21V5.366h-5.112v7.653c0 3.793 1.514 5.69 4.542 5.69zm16.103-.273V11.28c0-1.475.504-2.212 1.513-2.212 1.026 0 1.54.737 1.54 2.212v7.155h5.111v-7.652c0-3.793-1.513-5.69-4.541-5.69-1.638 0-2.846.63-3.623 1.888V5.366h-5.113v13.069h5.113zm15.383 0V11.28c0-1.475.504-2.212 1.514-2.212 1.025 0 1.538.737 1.538 2.212v7.155h5.113v-7.652c0-3.793-1.514-5.69-4.542-5.69-1.638 0-2.846.63-3.623 1.888V5.366h-5.113v13.069h5.113zM64.958 24l8.289-18.634H67.91l-2.532 6.684-2.258-6.684h-5.584l5.435 11.802L59.944 24h5.014zm13.67-5.292c1.638 0 2.995-.36 4.07-1.08 1.076-.721 1.614-1.769 1.614-3.144-.083-1.855-1.465-3.246-4.145-4.173l-1.44-.597c-.314-.1-.537-.198-.67-.298a.45.45 0 01-.198-.373c0-.414.273-.62.819-.62.678 0 1.183.347 1.514 1.043l3.698-1.044c-.894-2.22-2.614-3.329-5.162-3.329-1.522 0-2.788.398-3.797 1.193-1.01.795-1.514 1.83-1.514 3.105 0 .398.058.766.173 1.106.116.34.29.638.522.894.231.257.455.48.67.671.215.19.488.369.819.534.33.166.583.286.757.36.173.075.41.162.707.261l.422.15 1.489.546c.364.133.6.244.707.335a.449.449 0 01.161.36c0 .431-.405.647-1.216.647-1.19 0-1.902-.53-2.134-1.59l-3.723.844c.464 2.8 2.416 4.2 5.857 4.2zm9.8-14.137c.91 0 1.613-.215 2.11-.646.495-.43.744-.977.744-1.64 0-.678-.24-1.23-.72-1.651C90.082.21 89.371 0 88.428 0c-.943 0-1.655.211-2.135.634-.48.422-.72.973-.72 1.652 0 .662.249 1.209.745 1.64.497.43 1.2.645 2.11.645zm2.556 13.864V5.366H85.87v13.069h5.113zm7.74.273c1.737 0 2.977-.63 3.722-1.888v1.615h5.112V.472h-5.112v6.534c-.745-1.275-1.985-1.913-3.723-1.913-1.753 0-3.214.642-4.38 1.926-1.166 1.283-1.75 2.91-1.75 4.882 0 1.97.584 3.598 1.75 4.882 1.166 1.283 2.627 1.925 4.38 1.925zm1.39-3.9c-.729 0-1.312-.274-1.75-.82-.439-.547-.658-1.243-.658-2.087 0-.845.215-1.54.645-2.087.447-.547 1.034-.82 1.762-.82s1.311.273 1.75.82c.438.546.657 1.242.657 2.087 0 .844-.219 1.54-.657 2.087-.439.546-1.022.82-1.75.82zm16.698 3.9c2.597 0 4.624-.754 6.08-2.26l-2.11-2.833c-1.042.845-2.217 1.267-3.524 1.267-.992 0-1.799-.224-2.42-.67-.62-.448-.93-.879-.93-1.293h9.604c.083-.298.124-.687.124-1.167 0-2.054-.674-3.677-2.022-4.87-1.349-1.193-3.073-1.789-5.175-1.789-2.25 0-4.028.671-5.335 2.013-1.307 1.341-1.961 2.956-1.961 4.844 0 1.938.69 3.549 2.072 4.833 1.382 1.283 3.247 1.925 5.597 1.925zm2.208-8.149h-5.112c.033-.613.298-1.08.794-1.404.496-.323 1.084-.484 1.762-.484.678 0 1.266.165 1.762.497.497.331.761.795.794 1.391z"
+              fill="currentColor" fill-rule="nonzero" />
+          </svg>
+        </div>
+        <div class="footer-link">
+          <ul class="flex gap-14">
+            <li><a href="#">About</li></a>
+            <li><a href="#">Services</li></a>
+            <li><a href="#">Projects</li></a>
+          </ul>
+        </div>
+        <div class="social flex gap-6 justify-center">
+          <a href="#"><img class="w-6 h-6 " src="./assets/icon-facebook.svg" alt=""></a>
+          <a href="#"><img class="w-6 h-6" src="./assets/icon-instagram.svg" alt=""></a>
+          <a href="#"><img class="w-6 h-6" src="./assets/icon-twitter.svg" alt=""></a>
+          <a href="#"><img class="w-6 h-6" src="./assets/icon-pinterest.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
